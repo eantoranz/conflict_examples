@@ -3,6 +3,7 @@
 import sys
 
 colors = {"black": "black mirror",
+          "green": "green peas",
           "white": "white noise",
           "blue": "blue sky"}
 
