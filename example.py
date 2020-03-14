@@ -8,6 +8,7 @@ colors = {"black": "black mirror",
 
 def getPhrase(color):
     phrase = colors[color]
+    phrase = phrase.upper()
     return phrase
 
 print(getPhrase(sys.argv[1]))
