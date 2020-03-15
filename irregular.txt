@@ -1,0 +1,13 @@
+# List of irregular verbs
+# simple form<tab>past tense<tab>past participle
+catch	caught	caught
+draw	drew	drawn
+eat	ate	eaten
+fight	fought	fought
+fly	flew	flown
+grow	grew	grown
+hang	hung	hung
+let	let	let
+read	read	read
+run	ran	run
+sleep	slept	slept
