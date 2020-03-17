@@ -7,7 +7,7 @@ colors = {"black": "black mirror",
           "blue": "blue sky"}
 
 def getPhrase(color):
-    phrase = colors[color]
+    phrase = colors[color.lower()]
     return phrase
 
 print(getPhrase(sys.argv[1]))
