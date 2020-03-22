@@ -7,9 +7,6 @@ colors = {"black": "black mirror",
           "blue": "blue sky"}
 
 def getPhrase(color):
-    if color not in colors:
-        sys.stderr.write("Got no phrase for color %s\n" % color)
-        sys.exit(1)
     phrase = getFormattedPhrase(color)
     return phrase
 
