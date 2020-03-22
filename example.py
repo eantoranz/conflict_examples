@@ -6,7 +6,7 @@ import sys
 
 def getPhrase(color):
     if color not in colors:
-        sys.stderr.write("Got no phrase for color %s\n" % color)
+        sys.stderr.write("Color %s has no phrase\n" % color)
         sys.exit(1)
     phrase = getFormattedPhrase(color)
     return phrase
