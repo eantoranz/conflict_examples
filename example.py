@@ -12,7 +12,6 @@ def getPhrase(origColor):
         sys.stderr.write("There is no phrase defined for color %s\n" % origColor)
         sys.exit(1)
     phrase = colors[color]
-    phrase = "%s: %s" % (origColor, phrase)
     return phrase
 
 print(getPhrase(sys.argv[1]))
