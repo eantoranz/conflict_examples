@@ -15,5 +15,7 @@ def getPhrase(color):
     phrase = "%s: %s" % (color, phrase)
     return phrase
 
+# I love color white
+print(getPhrase("white"))
 for color in sys.argv[1:]:
     print(getPhrase(color))
