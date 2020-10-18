@@ -11,6 +11,9 @@ primes=[]
 def isPrime(aNumber):
   prime=True
   for i in primes:
+    if i * i > aNumber:
+      # no need to continue, it's a prime
+      break
     prime=aNumber % i > 0
     if not prime:
       break
