@@ -16,6 +16,6 @@ def isPrime(aNumber):
   # if we made it this far, it's a prime
   return prime
 
-for i in range(2, 100):
+for i in range(2, 10000):
   if isPrime(i):
     print(i)
